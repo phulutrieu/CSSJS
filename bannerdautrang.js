@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://goo.gl/Z8DtA1' target='_blank'><img src='http://ytuonghop.com/wp-content/uploads/2016/09/cong-trinh-3.jpg' width='500px'/></a><br/>Quà tặng siêu hot: Miễn phí 100% <a href='https://goo.gl/Z8DtA1'>Thiết kế nội ngoại thất</a>. <br>LH: 0937 030 355 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://goo.gl/Z8DtA1' target='_blank'><img src='http://ytuonghop.com/wp-content/uploads/2016/09/cong-trinh-3.jpg' width='500px'/></a><br/>Quà tặng siêu hot: Miễn phí 100% <a href='https://goo.gl/Z8DtA1'>Thiết kế nội ngoại thất</a>. <br/>LH: 0937 030 355 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
